@@ -650,7 +650,7 @@ const [myPendingResId, setMyPendingResId] = useState(null);
                               setSelectedTent(t2||null);
                             }} />
                         </label>
-                        {selectedTent && <div className="hint">Editando: <b>#{{}.toString.call() && selectedTent.id}</b></div>}
+                        {selectedTent && <div className="hint">Editando: <b>#{selectedTent?.id}</b></div>}
                       </div>
                     </div>
     
